@@ -93,11 +93,11 @@ Antes de la actualización, se realizarán comprobaciones para asegurarse de que
 		"Number_of_workers": 2
 	}
 
-
+```
 5. **Eliminar una Tarea (DELETE /api/jobs/:id)**:
    Puedes eliminar una tarea específica proporcionando su ID.
 La tarea correspondiente se eliminará de la base de datos.
-
+```
 
         -DELETE http://127.0.0.1:4000/api/jobs/1
             {
@@ -135,7 +135,7 @@ Para ejecutar el servidor y poner en funcionamiento la API, sigue estos pasos:
 6. Inicia el servidor de desarrollo con el siguiente comando:
     npm run dev
 
-7. El servidor se ejecutará en `http://localhost:4000/`. Puedes acceder a la API y realizar solicitudes HTTP utilizando herramientas como Insomnia, Postman o curl.
+7. El servidor se ejecutará en ``` `http://localhost:4000/` ```. Puedes acceder a la API y realizar solicitudes HTTP utilizando herramientas como Insomnia, Postman o curl.
 
 8. ¡Listo! Ahora puedes comenzar a utilizar y probar tu API REST.
 
@@ -143,12 +143,12 @@ Recuerda que este comando utiliza nodemon para reiniciar automáticamente el ser
 
 
 # Recuerda tambien crear y asignar tus variables de entorno dentro del archivo .env (en la raíz del proyecto)
-
+```
 HOST=host
 DATABASE=database
 USER=user
 PASSWORD=password
-
+```
 # Para instalar los paquetes de Node.js necesarios (indicados en package.json):
 
    npm i
