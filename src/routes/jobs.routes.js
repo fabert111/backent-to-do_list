@@ -9,4 +9,4 @@ router.post("/", jobsControllers.addJobs);
 router.put("/:id", jobsControllers.updateJobs);
 router.delete("/:id", jobsControllers.deleteJobs);
 
-export default router;
+export default router; 
