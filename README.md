@@ -12,7 +12,7 @@ A continuación, se detallan las funcionalidades proporcionadas por el backend d
 Esta lista incluirá información como el ID de la tarea, la descripción de la tarea (task), y el número de trabajadores asignados (Number_of_workers).
     
         -GET    http://127.0.0.1:4000/api/jobs
-     [
+[
 	{
 		"id": 1,
 		"task": "Podar el Cesped",
@@ -39,6 +39,7 @@ Esta lista incluirá información como el ID de la tarea, la descripción de la 
 		"Number_of_workers": 6
 	}
 ]
+
 
 2. **Obtener una Tarea Específica (GET /api/jobs/:id)**:
    - Puedes obtener detalles de una tarea específica utilizando su ID.
