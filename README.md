@@ -10,7 +10,7 @@ A continuación, se detallan las funcionalidades proporcionadas por el backend d
 1. **Listar Todas las Tareas (GET /api/jobs)**:
    - Puedes obtener una lista de todas las tareas pendientes almacenadas en la base de datos.
 Esta lista incluirá información como el ID de la tarea, la descripción de la tarea (task), y el número de trabajadores asignados (Number_of_workers).
-    
+```    
         -GET    http://127.0.0.1:4000/api/jobs
 [
 	{
@@ -39,12 +39,12 @@ Esta lista incluirá información como el ID de la tarea, la descripción de la 
 		"Number_of_workers": 6
 	}
 ]
-
+```
 
 2. **Obtener una Tarea Específica (GET /api/jobs/:id)**:
    - Puedes obtener detalles de una tarea específica utilizando su ID.
 La respuesta incluirá información como el ID de la tarea, la descripción de la tarea (task) y el número de trabajadores asignados (Number_of_workers).
-
+```
         -GET    http://127.0.0.1:4000/api/jobs/2
             [
 	{
@@ -54,11 +54,11 @@ La respuesta incluirá información como el ID de la tarea, la descripción de l
 	}
 ]
 
-
+```
 3. **Agregar una Nueva Tarea (POST /api/jobs)**:
    - Puedes agregar una nueva tarea proporcionando una descripción de la tarea (task) y el número de trabajadores asignados (Number_of_workers).
 El backend validará si se proporcionaron ambos campos y responderá con un mensaje de éxito una vez que la tarea se haya agregado a la base de datos.
-
+```
         -POST    http://127.0.0.1:4000/api/jobs
                 {
 	"message": "Task added"
@@ -68,13 +68,13 @@ El backend validará si se proporcionaron ambos campos y responderá con un mens
 		"task": "Niñeras",
 		"Number_of_workers": 9
 	}
-
+```
 
 4. **Actualizar una Tarea Existente (PUT /api/jobs/:id)**:
    - Puedes actualizar los detalles de una tarea existente utilizando su ID.
 Puedes modificar la descripción de la tarea (task) y el número de trabajadores asignados (Number_of_workers).
 Antes de la actualización, se realizarán comprobaciones para asegurarse de que se proporcionen todos los campos requeridos.
-
+```
         -PUT    http://127.0.0.1:4000/api/jobs/8
                 
                 {
@@ -110,7 +110,7 @@ La tarea correspondiente se eliminará de la base de datos.
 	"protocol41": true,
 	"changedRows": 0
 }
-
+```
 6. **Conexión a la Base de Datos (database.js)**:
    El backend establece una conexión a la base de datos MySQL utilizando la biblioteca "promise-mysql".
 Esta conexión se utiliza en todos los controladores para realizar operaciones de base de datos como consultar, agregar, actualizar y eliminar tareas.
