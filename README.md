@@ -77,7 +77,7 @@ Antes de la actualización, se realizarán comprobaciones para asegurarse de que
         -PUT    http://127.0.0.1:4000/api/jobs/8
                 
                 {
-	"fieldCount": 0,
+	-"fieldCount": 0,
 	"affectedRows": 1,
 	"insertId": 0,
 	"serverStatus": 2,
