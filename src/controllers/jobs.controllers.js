@@ -64,7 +64,7 @@ const deleteJobs = async (req, res) => {
         res.json(result);
     } catch (error) {
         res.status(500).send(error.message);
-    }
+    } 
 };
 
 export const methods = {
