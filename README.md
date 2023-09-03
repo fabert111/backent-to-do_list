@@ -142,14 +142,14 @@ Para ejecutar el servidor y poner en funcionamiento la API, sigue estos pasos:
 Recuerda que este comando utiliza nodemon para reiniciar automáticamente el servidor cuando se realizan cambios en el código, lo que facilita el desarrollo y la depuración de la aplicación.
 
 
-# Recuerda tambien crear y asignar tus variables de entorno dentro del archivo .env (en la raíz del proyecto)
+## Recuerda tambien crear y asignar tus variables de entorno dentro del archivo .env (en la raíz del proyecto)
 ```
 HOST=host
 DATABASE=database
 USER=user
 PASSWORD=password
 ```
-# Para instalar los paquetes de Node.js necesarios (indicados en package.json):
+## Para instalar los paquetes de Node.js necesarios (indicados en package.json):
 
    npm i
 
@@ -166,16 +166,16 @@ Para el desarrollo de la aplicación, necesitarás [XAMPP](https://www.apachefri
 
 Con Node.js y XAMPP instalados, estás listo para comenzar a desarrollar el backend de la aplicación de la biblioteca.
 
-# Cliente REST
+## Cliente REST
 Ten en cuenta que con respecto al cliente REST se utilizo "Insomnia" pero puedes usar muchos mas entre los que se ha usado en clase como  #Postman y entre otros #Paw #Restlet Client #HTTPie #Thunder Client (para Visual Studio Code)
 
 
-# tecnologias utilizadas
+## tecnologias utilizadas
 dotenv
 express
 promise-mysql
 
-# Dependencias de desarrollo:
+## Dependencias de desarrollo:
 
 @babel/cli
 @babel/core
@@ -185,4 +185,4 @@ morgan
 nodemon
 
 # Autor 
-faber tinoco # backent-to-do_list
+faber tinoco ## backent-to-do_list
