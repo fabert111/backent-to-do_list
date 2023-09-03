@@ -1,6 +1,6 @@
 # PROYECTO CRUD REST API con Node.js, Express y MySQL
 
-"Desarrollo de  un proyecto de REST API utilizando Node.js junto con el sólido framework web Express y el potente sistema de gestión de bases de datos MySQL. En este proyecto, implementarás los métodos HTTP GET, POST, PUT y DELETE, y adquirirás la destreza necesaria para probar tu API de manera eficiente utilizando un cliente REST como Insomnia. 
+"Desarrollo de  un proyecto de REST API utilizando Node.js junto con el sólido framework web Express y el potente sistema de gestión de bases de datos MySQL. En este proyecto, implementarás los métodos HTTP GET, POST, PUT y DELETE,  para probar tu API de manera eficiente utilizando un cliente REST como Insomnia. 
 
 
 ## FUNCIONALIDADES 
