@@ -167,22 +167,23 @@ Para el desarrollo de la aplicación, necesitarás [XAMPP](https://www.apachefri
 Con Node.js y XAMPP instalados, estás listo para comenzar a desarrollar el backend de la aplicación de la biblioteca.
 
 ## Cliente REST
-Ten en cuenta que con respecto al cliente REST se utilizo "Insomnia" pero puedes usar muchos mas entre los que se ha usado en clase como  #Postman y entre otros #Paw #Restlet Client #HTTPie #Thunder Client (para Visual Studio Code)
+Ten en cuenta que con respecto al cliente REST se utilizo ```"Insomnia" ```pero puedes usar muchos mas entre los que se ha usado en clase como ``` #Postman ``` entre otros ```#Paw ```#Restlet ```Client HTTPie``` ```#Thunder Client (para Visual Studio Code)```
 
 
 ## tecnologias utilizadas
+```
 dotenv
 express
 promise-mysql
-
+```
 ## Dependencias de desarrollo:
-
+```
 @babel/cli
 @babel/core
 @babel/node
 @babel/preset-env
 morgan 
 nodemon
-
+```
 # Autor 
 faber tinoco ## backent-to-do_list
