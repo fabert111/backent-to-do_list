@@ -151,7 +151,7 @@ PASSWORD=password
 ```
 ## Para instalar los paquetes de Node.js necesarios (indicados en package.json):
 
-   npm i
+```   npm i```
 
 
 ## Instalación de XAMPP
